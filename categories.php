@@ -2,10 +2,8 @@
   $file = "data-game.json";
   $game = file_get_contents($file);
   $data = json_decode($game, true);
-
-  print_r($data);
- 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -136,13 +134,18 @@
         </div>
 
         <div class="row mt-5">
+          <?php foreach($data as $row){ ?>
           <div class="col-lg-12">
             <div class="d-block d-md-flex listing">
               <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_2.jpg')"></a>
               <div class="lh-content">
-                <span class="category">Action</span>
-                <h3><a href="listings-single.html">House with Swimming Pool</a></h3>
-                <address>Don St, Brooklyn, New York</address>
+                <span class="category"><?php echo $row['kategori']."<br>"; ?></span>
+                <h3><a href="listings-single.html">
+                  <?php 
+                    echo $row['judul']."<br>";
+                  ?>
+                  </a></h3>
+                <address><?php echo $row['released']."<br>"; ?></address>
                 <p class="mb-0">
                   <span class="icon-star text-warning"></span>
                   <span class="icon-star text-warning"></span>
@@ -156,117 +159,7 @@
                   </div>
               </div>
             </div>
-            <div class="d-block d-md-flex listing">
-                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
-                <div class="lh-content">
-                  <span class="category">Casual</span>
-                  <h3><a href="listings-single.html">Wooden Chair &amp; Table</a></h3>
-                  <address>Don St, Brooklyn, New York</address>
-                  <p class="mb-0">
-                    <span class="icon-star text-warning"></span>
-                    <span class="icon-star text-warning"></span>
-                    <span class="icon-star text-warning"></span>
-                    <span class="icon-star text-warning"></span>
-                    <span class="icon-star text-secondary"></span>
-                    <span class="review">(3 Reviews)</span>
-                  </p>
-                  <div class="col-12 text-right mt-4">
-                    <a href="#" class="btn btn-primary rounded py-2 px-4 text-white">More</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="d-block d-md-flex listing">
-                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_4.jpg')"></a>
-                <div class="lh-content">
-                  <span class="category">Strategy</span>
-                  <h3><a href="listings-single.html">iPhone X gray</a></h3>
-                  <address>Don St, Brooklyn, New York</address>
-                  <p class="mb-0">
-                    <span class="icon-star text-warning"></span>
-                    <span class="icon-star text-warning"></span>
-                    <span class="icon-star text-warning"></span>
-                    <span class="icon-star text-warning"></span>
-                    <span class="icon-star text-secondary"></span>
-                    <span class="review">(3 Reviews)</span>
-                  </p>
-                  <div class="col-12 text-right mt-4">
-                    <a href="#" class="btn btn-primary rounded py-2 px-4 text-white">More</a>
-                  </div>
-                </div>
-              </div>
-
-             
-
-          </div>
-          <div class="col-lg-12">
-
-            <div class="d-block d-md-flex listing">
-              <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_1.jpg')"></a>
-              <div class="lh-content">
-                <span class="category">Action</span>
-                <h3><a href="listings-single.html">Red Luxury Car</a></h3>
-                <address>Don St, Brooklyn, New York</address>
-                <p class="mb-0">
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-secondary"></span>
-                  <span class="review">(3 Reviews)</span>
-                </p>
-                <div class="col-12 text-right mt-4">
-                    <a href="#" class="btn btn-primary rounded py-2 px-4 text-white">More</a>
-                  </div>
-              </div>
-            </div>
-
-            <div class="d-block d-md-flex listing">
-              <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_2.jpg')"></a>
-              <div class="lh-content">
-                <span class="category">Arcade</span>
-                <h3><a href="listings-single.html">House with Swimming Pool</a></h3>
-                <address>Don St, Brooklyn, New York</address>
-                <p class="mb-0">
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-secondary"></span>
-                  <span class="review">(3 Reviews)</span>
-                </p>
-                <div class="col-12 text-right mt-4">
-                    <a href="#" class="btn btn-primary rounded py-2 px-4 text-white">More</a>
-                  </div>
-              </div>
-            </div>
-            <div class="d-block d-md-flex listing">
-                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
-                <div class="lh-content">
-                  <span class="category">Casual</span>
-                  <h3><a href="listings-single.html">Wooden Chair &amp; Table</a></h3>
-                  <address>Don St, Brooklyn, New York</address>
-                  <p class="mb-0">
-                    <span class="icon-star text-warning"></span>
-                    <span class="icon-star text-warning"></span>
-                    <span class="icon-star text-warning"></span>
-                    <span class="icon-star text-warning"></span>
-                    <span class="icon-star text-secondary"></span>
-                    <span class="review">(3 Reviews)</span>
-                  </p>
-                  <div class="col-12 text-right mt-4">
-                    <a href="#" class="btn btn-primary rounded py-2 px-4 text-white">More</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 text-center mt-4">
-                <a href="#" class="btn btn-primary rounded py-2 px-4 text-white">View All Posts</a>
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
+          <?php } ?>
    
     
     <footer class="site-footer">
