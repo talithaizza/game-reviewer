@@ -1,8 +1,13 @@
 <?php 
-  $base_url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-  $result = file_get_contents($base_url."/data-game.json");
-  $json_object = json_decode($result);
-  
+  $file = "data-game.json";
+  $game = file_get_contents($file);
+  $data = json_decode($game, true);
+ 
+  foreach ($data as $d){
+      echo $d['no']."<br>";
+      echo $d['judul']."<br>";
+      echo $d['rating']."<br>";
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,15 +18,20 @@
 
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/rangeslider.css">
+
     <link rel="stylesheet" href="css/style.css">
     
   </head>
@@ -47,8 +57,8 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="categories.html">Categories</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="categories.html">Categories</a></li>
                 <li><a href="#about">About</a></li>
         
               </ul>
@@ -123,72 +133,18 @@
 
     <div class="site-section bg-light">
       <div class="container">
-        
-        <div class="overlap-category mb-5">
-          <div class="row align-items-stretch no-gutters">
-            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-              <a href="#" class="popular-category h-100">
-                <span class="icon"><span class="flaticon-house"></span></span>
-                <span class="caption mb-2 d-block">Action</span>
-                <span class="number">3,921</span>
-              </a>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-              <a href="#" class="popular-category h-100">
-                <span class="icon"><span class="flaticon-books"></span></span>
-                <span class="caption mb-2 d-block">Education</span>
-                <span class="number">398</span>
-              </a>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-              <a href="#" class="popular-category h-100">
-                <span class="icon"><span class="flaticon-bunk-bed"></span></span>
-                <span class="caption mb-2 d-block">Casual</span>
-                <span class="number">1,229</span>
-              </a>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-              <a href="#" class="popular-category h-100">
-                <span class="icon"><span class="flaticon-innovation"></span></span>
-                <span class="caption mb-2 d-block">Strategy</span>
-                <span class="number">32,891</span>
-              </a>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-              <a href="#" class="popular-category h-100">
-                <span class="icon"><span class="flaticon-car"></span></span>
-                <span class="caption mb-2 d-block">Sport</span>
-                <span class="number">29,221</span>
-              </a>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-              <a href="#" class="popular-category h-100">
-                <span class="icon"><span class="flaticon-pizza"></span></span>
-                <span class="caption mb-2 d-block">Other</span>
-                <span class="number">219</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="site-section bg-light">
-      <div class="container">
         <div class="row mb-5">
           <div class="col-md-7 text-left border-primary">
-            <h2 class="font-weight-light text-primary">Trending Today</h2>
+            <h2 class="font-weight-light text-primary">All Categories</h2>
           </div>
         </div>
-        <div class="row mt-5">
-          <div class="col-lg-6">
 
+        <div class="row mt-5">
+          <div class="col-lg-12">
             <div class="d-block d-md-flex listing">
               <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_2.jpg')"></a>
               <div class="lh-content">
                 <span class="category">Action</span>
-                <a href="#" class="bookmark"><span class="icon-heart"></span></a>
                 <h3><a href="listings-single.html">House with Swimming Pool</a></h3>
                 <address>Don St, Brooklyn, New York</address>
                 <p class="mb-0">
@@ -199,13 +155,15 @@
                   <span class="icon-star text-secondary"></span>
                   <span class="review">(3 Reviews)</span>
                 </p>
+                <div class="col-12 text-right mt-4">
+                    <a href="#" class="btn btn-primary rounded py-2 px-4 text-white">More</a>
+                  </div>
               </div>
             </div>
             <div class="d-block d-md-flex listing">
                 <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
                 <div class="lh-content">
                   <span class="category">Casual</span>
-                  <a href="#" class="bookmark"><span class="icon-heart"></span></a>
                   <h3><a href="listings-single.html">Wooden Chair &amp; Table</a></h3>
                   <address>Don St, Brooklyn, New York</address>
                   <p class="mb-0">
@@ -216,6 +174,9 @@
                     <span class="icon-star text-secondary"></span>
                     <span class="review">(3 Reviews)</span>
                   </p>
+                  <div class="col-12 text-right mt-4">
+                    <a href="#" class="btn btn-primary rounded py-2 px-4 text-white">More</a>
+                  </div>
                 </div>
               </div>
 
@@ -223,7 +184,6 @@
                 <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_4.jpg')"></a>
                 <div class="lh-content">
                   <span class="category">Strategy</span>
-                  <a href="#" class="bookmark"><span class="icon-heart"></span></a>
                   <h3><a href="listings-single.html">iPhone X gray</a></h3>
                   <address>Don St, Brooklyn, New York</address>
                   <p class="mb-0">
@@ -234,19 +194,21 @@
                     <span class="icon-star text-secondary"></span>
                     <span class="review">(3 Reviews)</span>
                   </p>
+                  <div class="col-12 text-right mt-4">
+                    <a href="#" class="btn btn-primary rounded py-2 px-4 text-white">More</a>
+                  </div>
                 </div>
               </div>
 
              
 
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-12">
 
             <div class="d-block d-md-flex listing">
               <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_1.jpg')"></a>
               <div class="lh-content">
                 <span class="category">Action</span>
-                <a href="#" class="bookmark"><span class="icon-heart"></span></a>
                 <h3><a href="listings-single.html">Red Luxury Car</a></h3>
                 <address>Don St, Brooklyn, New York</address>
                 <p class="mb-0">
@@ -257,6 +219,9 @@
                   <span class="icon-star text-secondary"></span>
                   <span class="review">(3 Reviews)</span>
                 </p>
+                <div class="col-12 text-right mt-4">
+                    <a href="#" class="btn btn-primary rounded py-2 px-4 text-white">More</a>
+                  </div>
               </div>
             </div>
 
@@ -264,7 +229,6 @@
               <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_2.jpg')"></a>
               <div class="lh-content">
                 <span class="category">Arcade</span>
-                <a href="#" class="bookmark"><span class="icon-heart"></span></a>
                 <h3><a href="listings-single.html">House with Swimming Pool</a></h3>
                 <address>Don St, Brooklyn, New York</address>
                 <p class="mb-0">
@@ -275,13 +239,15 @@
                   <span class="icon-star text-secondary"></span>
                   <span class="review">(3 Reviews)</span>
                 </p>
+                <div class="col-12 text-right mt-4">
+                    <a href="#" class="btn btn-primary rounded py-2 px-4 text-white">More</a>
+                  </div>
               </div>
             </div>
             <div class="d-block d-md-flex listing">
                 <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
                 <div class="lh-content">
                   <span class="category">Casual</span>
-                  <a href="#" class="bookmark"><span class="icon-heart"></span></a>
                   <h3><a href="listings-single.html">Wooden Chair &amp; Table</a></h3>
                   <address>Don St, Brooklyn, New York</address>
                   <p class="mb-0">
@@ -292,6 +258,9 @@
                     <span class="icon-star text-secondary"></span>
                     <span class="review">(3 Reviews)</span>
                   </p>
+                  <div class="col-12 text-right mt-4">
+                    <a href="#" class="btn btn-primary rounded py-2 px-4 text-white">More</a>
+                  </div>
                 </div>
               </div>
               <div class="col-12 text-center mt-4">
@@ -302,48 +271,7 @@
       </div>
     </div>
     
-    
-    <div class="site-section bg-light">
-      <div class="container">
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-7 text-center border-primary">
-            <h2 class="font-weight-light text-primary">Articles</h2>
-            <p class="color-black-opacity-5">See Our Daily News &amp; Updates </p>
-          </div>
-        </div>
-        <div class="row mb-3 align-items-stretch">
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-              <img src="images/hero_1.jpg" alt="Image" class="img-fluid rounded">
-              <h2 class="font-size-regular"><a href="#" class="text-black">Many People Selling Online</a></h2>
-              <div class="meta mb-3">by Mark Spiker<span class="mx-1">&bullet;</span> Jan 18, 2019 <span class="mx-1">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-            </div> 
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-              <img src="images/hero_1.jpg" alt="Image" class="img-fluid rounded">
-              <h2 class="font-size-regular"><a href="#" class="text-black">Many People Selling Online</a></h2>
-              <div class="meta mb-3">by Mark Spiker<span class="mx-1">&bullet;</span> Jan 18, 2019 <span class="mx-1">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-            </div> 
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-              <img src="images/hero_1.jpg" alt="Image" class="img-fluid rounded">
-              <h2 class="font-size-regular"><a href="#" class="text-black">Many People Selling Online</a></h2>
-              <div class="meta mb-3">by Mark Spiker<span class="mx-1">&bullet;</span> Jan 18, 2019 <span class="mx-1">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-            </div>
-          </div>
-
-          <div class="col-12 text-center mt-4">
-            <a href="#" class="btn btn-primary rounded py-2 px-4 text-white">View All Posts</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  
+   
     
     <footer class="site-footer">
       <div class="container">
@@ -393,7 +321,6 @@
   <script src="js/bootstrap-datepicker.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/rangeslider.min.js"></script>
-
   <script src="js/main.js"></script>
     
   </body>

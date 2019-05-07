@@ -1,0 +1,148 @@
+{
+    "Game": {
+      "1": {
+        "No": 1,
+        "Judul": "Zombi hunter Snipper:",
+        "Rating": 4.5,
+        "Released": "2017-07-28T07:00:00.000Z",
+        "Size": "66mb",
+        "Kategori": "Action",
+        "Deskripsi": null
+      },
+      "": {
+        "No": null,
+        "Judul": "Bang bang",
+        "Rating": null,
+        "Released": null,
+        "Size": null,
+        "Kategori": null,
+        "Deskripsi": null
+      },
+      "2": {
+        "No": 2,
+        "Judul": "Modern Strike Online:",
+        "Rating": 4.2,
+        "Released": null,
+        "Size": "52mb",
+        "Kategori": "Action",
+        "Deskripsi": null
+      },
+      "3": {
+        "No": 3,
+        "Judul": "Mad Skill",
+        "Rating": 4.3,
+        "Released": null,
+        "Size": "varies with",
+        "Kategori": null,
+        "Deskripsi": null
+      },
+      "4": {
+        "No": 4,
+        "Judul": "PUBG MOBILE",
+        "Rating": 4.5,
+        "Released": "2018-03-19T07:00:00.000Z",
+        "Size": "1,73GB",
+        "Kategori": "Action",
+        "Deskripsi": null
+      },
+      "5": {
+        "No": 5,
+        "Judul": "Garena Free Fire",
+        "Rating": 4.5,
+        "Released": "2017-11-02T07:00:00.000Z",
+        "Size": "412 MB",
+        "Kategori": "Action",
+        "Deskripsi": null
+      },
+      "6": {
+        "No": 6,
+        "Judul": "Mobile Legends:",
+        "Rating": 4.3,
+        "Released": "2016-09-24T07:00:00.000Z",
+        "Size": "92.35MB",
+        "Kategori": "Action",
+        "Deskripsi": null
+      },
+      "7": {
+        "No": 7,
+        "Judul": "Shoot Bubble",
+        "Rating": 4.5,
+        "Released": "2018-01-26T08:00:00.000Z",
+        "Size": "22,86MB",
+        "Kategori": "Santai",
+        "Deskripsi": null
+      },
+      "8": {
+        "No": 8,
+        "Judul": "Township",
+        "Rating": 4.6,
+        "Released": "2018-11-08T08:00:00.000Z",
+        "Size": "93,53MB",
+        "Kategori": "Santai",
+        "Deskripsi": null
+      },
+      "9": {
+        "No": 9,
+        "Judul": "Street Racing 3D",
+        "Rating": 4.4,
+        "Released": "10-ag-17",
+        "Size": "75,97",
+        "Kategori": "Balapan",
+        "Deskripsi": null
+      },
+      "10": {
+        "No": 10,
+        "Judul": "Subway Surfers",
+        "Rating": 4.5,
+        "Released": "2012-09-20T07:00:00.000Z",
+        "Size": "86.65MB",
+        "Kategori": "Arkade",
+        "Deskripsi": null
+      },
+      "11": {
+        "No": 11,
+        "Judul": "Homescape",
+        "Rating": 4.6,
+        "Released": "2017-09-19T07:00:00.000Z",
+        "Size": "93.55MB",
+        "Kategori": "Santai",
+        "Deskripsi": null
+      },
+      "12": {
+        "No": 12,
+        "Judul": "Ludo King",
+        "Rating": 4.4,
+        "Released": "17 des 2016",
+        "Size": "34,97",
+        "Kategori": "Papan",
+        "Deskripsi": null
+      },
+      "13": {
+        "No": 13,
+        "Judul": "Magic Tiles 3",
+        "Rating": 4.5,
+        "Released": "2017-02-24T08:00:00.000Z",
+        "Size": "56,78",
+        "Kategori": "Musik",
+        "Deskripsi": null
+      },
+      "14": {
+        "No": 14,
+        "Judul": "Kick the buddy",
+        "Rating": 4.3,
+        "Released": "22 Mei 2018",
+        "Size": "87.10MB",
+        "Kategori": "Action",
+        "Deskripsi": null
+      },
+      "15": {
+        "No": 15,
+        "Judul": "Pou",
+        "Rating": 4.3,
+        "Released": null,
+        "Size": null,
+        "Kategori": null,
+        "Deskripsi": null
+      }
+    }
+  }
