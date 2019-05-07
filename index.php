@@ -1,8 +1,8 @@
 <?php 
-  $base_url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-  $result = file_get_contents($base_url."/data-game.json");
-  $json_object = json_decode($result);
-  
+  $file = "data-game.json";
+  $game = file_get_contents($file);
+  $data = json_decode($game, true);
+ 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -48,7 +48,7 @@
 
               <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="categories.html">Categories</a></li>
+                <li><a href="categories.php">Categories</a></li>
                 <li><a href="#about">About</a></li>
         
               </ul>

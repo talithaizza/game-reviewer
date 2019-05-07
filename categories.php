@@ -2,12 +2,9 @@
   $file = "data-game.json";
   $game = file_get_contents($file);
   $data = json_decode($game, true);
+
+  print_r($data);
  
-  foreach ($data as $d){
-      echo $d['no']."<br>";
-      echo $d['judul']."<br>";
-      echo $d['rating']."<br>";
-  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +15,6 @@
 
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
-
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
@@ -58,7 +54,7 @@
 
               <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="categories.html">Categories</a></li>
+                <li class="active"><a href="categories.php">Categories</a></li>
                 <li><a href="#about">About</a></li>
         
               </ul>
