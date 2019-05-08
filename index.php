@@ -98,12 +98,17 @@
                       <select class="form-control rounded" name="" id="">
                         <option value="">All Categories</option>
                         <option value="">Action</option>
+                        <option value="">Board</option>
+                        <option value="">Brain Games</option>
                         <option value="">Casual</option>
-                        <option value="">Arcade</option>
-                        <option value="">Puzzles</option>
                         <option value="">Education</option>
+                        <option value="">Music</option>
+                        <option value="">Puzzles</option>
+                        <option value="">Race</option>
+                        <option value="">Sosial</option>
                         <option value="">Strategy</option>
                         <option value="">Sport</option>
+                        <option value="">Word</option>
                         <option value="">Others</option>
                       </select>
                     </div>
