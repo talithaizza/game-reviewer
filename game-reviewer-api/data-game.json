@@ -798,7 +798,206 @@
     "kategori": "Action",
     "deskripsi": null,
     "gambar": "https://lh3.googleusercontent.com/Lj1WabxsAx3PEOtTFxsvKiItivOJrKLtmvEeYcPcwL9fVo16HYjEbUfPfQ2se_UpN_g=s180-rw"
+  },
+  {
+    "id": 81,
+    "judul": "Toca Kitchen 2",
+    "rating": 4.5,
+    "released": "25 Mei 2015",
+    "size": "56MB",
+    "kategori": "Educational",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/7X8jrMNUyu8X4hs7WFNpEOV77xNc7agNTUOAFd6Kx3sw1XrlX7ZicIQQvVt7SOCYTqQ=s180-rw"
+  },
+  {
+    "id": 82,
+    "judul": "Rope Frog Ninja Hero - Strange Gangster Vegas",
+    "rating": 4.2,
+    "released": "22 Januari 2019",
+    "size": "73MB",
+    "kategori": "Action",
+    "deskripsi": "https://lh3.googleusercontent.com/5TjsW6zfrSOZxouLODlZ1R7iVv5KMrSCI8N6V1MEXRLhcNrVnDekx1TpvZFVUZ0nGb8=s180-rw",
+    "gambar":"" 
+  },
+  {
+    "id": 83,
+    "judul": "Bowmasters",
+    "rating": 4.6,
+    "released": "10 November 2016",
+    "size": "Varies with device",
+    "kategori": "Action",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/iw0yy7JCUpgMXgI4umxaOMeocpZ4V8_M1cVl0acJhJzQVu3gFC4Po3H50IFxePUuk6Q=s180-rw"
+  },
+  {
+    "id": 84,
+    "judul": "MARVEL Future Fight",
+    "rating": 4.6,
+    "released": "29 April 2015",
+    "size": "81MB",
+    "kategori": "Role Playing",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/HbQCFnDu4PXt8NOnJREwb3WNl3a1xrVmXZv8ZVWW64Di8yqX6gp0PQUZ-Nq1CRPGCKdX=s180-rw"
+  },
+  {
+    "id": 85,
+    "judul": "Racing In Car 3D",
+    "rating": 4.3,
+    "released": "23 Juni 2017",
+    "size": "31MB",
+    "kategori": "Racing",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/nrECMnImgDqrZ0aNn6-4QRm_f22SjSgjgssMcZ0Ktw7l_iLrl3rVxBuIV4Qu9o7qtg=s180-rw"
+  },
+  {
+    "id": 86,
+    "judul": "Moto racing - Traffic race 3D",
+    "rating": 4.1,
+    "released": "22 Agustus 2018",
+    "size": "8.8MB",
+    "kategori": "Racing",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/BQntp11UNueWbwhoFbvNnRB5mSKhW2CYt2ApfEFJyWxxubeGGY1x_DWsnTOv6e1iOw=s180-rw"
+  },
+  {
+    "id": 87,
+    "judul": "Iron Football Roar",
+    "rating": 4.6,
+    "released": "1 Agustus 2018",
+    "size": "25MB",
+    "kategori": "Simulation",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/-RFkD9xu7W8rm4GC_GyaRofYtCTxqczbkIS-v48OpetyLxSrCm1NZXpsTGNhbgg-Ww=s180-rw"
+  },
+  {
+    "id": 88,
+    "judul": "Speed Car Road Racing",
+    "rating": 4.5,
+    "released": "9 Desember 2015",
+    "size": "29MB",
+    "kategori": "Racing",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/1pX7j5PLHUH7oDppEl1JxqYjtD0b9JIu43hZbDz6VlzOv0O1gFRQ8XFIvT8M5gAkPQ=s180-rw"
+  },
+  {
+    "id": 89,
+    "judul": "Drift Max Pro - Car Drifting Game with Racing Cars",
+    "rating": 4.7,
+    "released": "15 Desember 2917",
+    "size": "23MB",
+    "kategori": "Racing",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/-8CG02vQRlvnHSr9FNnEmY_BoXOxlJ774MuaCa8gFsocJzhA0fN1WnotCJXQjOqMD6lQ=s180-rw"
+  },
+  {
+    "id": 90,
+    "judul": "Gravity Rider: Extreme Balance Space Bike Racing",
+    "rating": 4.6,
+    "released": "12 Agustus 2018",
+    "size": "60MB",
+    "kategori": "Racing",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/COV6I61gmW-dbE6SoyhYgEsPNYuksJ4Zg9D2D_ger5aIVvubpzx_29TxInYlXXaUKQ=s180-rw"
+  },
+  {
+    "id": 91,
+    "judul": "Royal Capsa Susun",
+    "rating": 4.4,
+    "released": "30 Juli 2018",
+    "size": "Varies with device",
+    "kategori": "Card",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/ENNqr0boTCivbF9wSSRIBtdojbeiwJ89iXs1WBBxbIqaZvM3cRHRCozXgNTNxslqV70=s180-rw"
+  },
+  {
+    "id": 92,
+    "judul": "Ludo Star",
+    "rating": 4.3,
+    "released": "2017-09-19T07:00:00.000Z",
+    "size": "29MB",
+    "kategori": "Board",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/mWLaf30Xo-_PZBHjkh8QlBS24UaS9FHyew0-6P9f6yy5gjmKvwf66GCb8diC0EmTNRxp=s180-rw"
+  },
+  {
+    "id":93,
+    "judul": "Number Puzzle Hexa",
+    "rating": 4.6,
+    "released": "17 Agustus 2018",
+    "size": "Varies with device",
+    "kategori": "Puzzle",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/KnFpzSPaLzeiwrZ6hMhdphK4_HKj6jBOIRJrqyh9wu1Eno1WQcQDITWaVdC8zkbQ0tca=s180-rw"
+  },
+  {
+    "id": 94,
+    "judul": "Bubble Heroes Galaxy",
+    "rating": 4.6,
+    "released": "28 Agustus 2018",
+    "size": "Varies with device",
+    "kategori": "Adventure",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/lyh9ZvDOvwPcclSvrn4vZ_ZzXBlc2lhDjNwBTHfpVqh1-gf6ibHAIsYGLFI5Mg4gAUE=s180-rw"
+  },
+  {
+    "id": 95,
+    "judul": "Candy Blast",
+    "rating": 3.9,
+    "released": "28 Agustus 2013",
+    "size": "12MB",
+    "kategori": "Casual",
+    "deskripsi": null,
+    "gambar": "https://lh3.ggpht.com/LRWkhb61tK5SxzkCtaNRxIUxOsaPGgBqKT620FPYhs8r8ciaSR5G9SSl14eWIV4upw=s180-rw"
+  },
+  {
+    "id": 96,
+    "judul": "JewelKing",
+    "rating": 4.5,
+    "released": "30 Juli 2018",
+    "size": "40MB",
+    "kategori": "Casual",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/i856eQTqAkhXhLstUywzdHWSr1ddDVwRcdFiXOlMfB43PrYuaXiEsW1RVk_LMu03-Qk=s180-rw"
+  },
+  {
+    "id": 97,
+    "judul": "Ice Cream Challenge - Free Match 3 Game",
+    "rating": 4.5,
+    "released": "20 Agustus 2018",
+    "size": "95MB",
+    "kategori": "Puzzle",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/PLDVVEg5fW_FvvqbdBSLxKiV6jlv9pBWkyMpR5evepVsJXX2axbuN1Gvk4jLtO5duA=s180-rw"
+  },
+  {
+    "id": 98,
+    "judul": "Bubbles Empire Champions",
+    "rating": 4.5,
+    "released": "16 Agustus 2018",
+    "size": "Varies with device",
+    "kategori": "Adventure",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/vCybT6C-FFOFgmrSDzM3Vh2Kgzfk5DA5_Rr4ln0IdHfLNzFnOWHID_yagZFQU5k50Q=s180-rw"
+  },
+  {
+    "id": 99,
+    "judul": "Bubble Shooter Blast",
+    "rating": 4.4,
+    "released": "16 Agustus 2018",
+    "size": "Varies with device",
+    "kategori": "Puzzle",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/HwsQMU3VpUI1kV8qMDbz6cGEkz3ocPmcid9c3h0RFCjBtxQCEd64k3XWp3rJuqL3aSi_=s180-rw"
+  },
+  {
+    "id": 100,
+    "judul": "Wood Block - Music Box",
+    "rating": 4.4,
+    "released": "14 Agustus 2018",
+    "size": "31MB",
+    "kategori": "Puzzle",
+    "deskripsi": null,
+    "gambar": "https://lh3.googleusercontent.com/O9vX4o0eQ-V-BhzRk38Bjc5ItTv_ii0Dum2dYBy3iRFmhKHkMaDhK_ns6F-NJ_8Rkno=s180-rw"
   }
-  
   
 ] 
